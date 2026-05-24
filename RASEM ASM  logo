@@ -1,0 +1,30 @@
+public class RasemConfig {
+
+    // 1. Logo ve Görsel Tanımları
+    public static final String LOGO_PATH = "/logo.png";
+    
+    // 2. Token Bilgileri
+    public static final String TOKEN_NAME = "RASEM";
+    public static final String TOKEN_SYMBOL = "ASM"; // Görseldeki kısaltma
+    public static final String CONTRACT_ADDRESS = "0xE06f8438E12DCE6328eDD94982c7B0882C5A9Cf7";
+    
+    // 3. Ağ (Network) Bilgileri
+    public static final String NETWORK_NAME = "Binance Smart Chain (BNB)";
+    public static final String EXPLORER_URL = "https://bscscan.com/address/" + CONTRACT_ADDRESS;
+    public static final String STATUS = "Verified & Secured";
+
+    // Bilgileri konsola veya arayüze yazdırmak için yardımcı metot
+    public static void displayProjectDetails() {
+        System.out.println("=== " + TOKEN_NAME + " Proje Bilgileri ===");
+        System.out.println("Sembol: " + TOKEN_SYMBOL);
+        System.out.println("Ağ: " + NETWORK_NAME);
+        System.out.println("Kontrat: " + CONTRACT_ADDRESS);
+        System.out.println("Durum: " + STATUS);
+        System.out.println("Detayları İncele: " + EXPLORER_URL);
+        System.out.println("Logo Dosyası: " + LOGO_PATH);
+    }
+
+    public static void main(String[] args) {
+        displayProjectDetails();
+    }
+}
