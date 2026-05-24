@@ -1,0 +1,12 @@
+# RASEM ASM Token
+
+**Token Adı:** Rasem ASM  
+**Sembol:** RASM  
+**Token (Cüzdan) Adresi:** `0xE06f8438E12DCE6328eDD94982c7B0882C5A9Cf7`  
+**Ağ:** BNB
+
+## Cüzdana Eklemek İçin
+- MetaMask/TrustWallet ile “Token Ekle” bölümüne yukarıdaki adresi, sembol ve ağ ile ekleyebilirsiniz.
+
+## Java Doğrulama ve Zincir Algoritması
+Kaynak kod için `RasemAsm.java` dosyasına bakınız.
