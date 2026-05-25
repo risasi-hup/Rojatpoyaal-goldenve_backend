@@ -20,3 +20,4 @@ components:
     dir: "."
 icon: "assets/rsm_logo.png"
 api_calls: []
+skills/risasimani/assets/rsm_logo.png
